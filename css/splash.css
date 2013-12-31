@@ -115,6 +115,21 @@ div#nav a:hover
 	margin-top: 21px;
 }
 
+.jobdecription
+{
+	margin-left: 10px;
+	margin-top: -19px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 5px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 5px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 5px;
+	border-top-left-radius: 0;
+	background:#D6D6D6;
+	padding: 5px;
+}
+
 .jobtitle
 {
 	clear: both;
@@ -174,7 +189,7 @@ div#triangle
 /* CONTENT DISPLAY */
 div#about
 {
-	display: none;
+	display: inline;
 }
 div#twitter
 {
@@ -182,7 +197,7 @@ div#twitter
 }
 div#workhistory
 {
-	display: inline;
+	display: none;
 }
 
 /* CONTENT PHOTOS */
@@ -294,6 +309,25 @@ div#twitter_feed hr
 	-moz-transform: scale(1);
 	-o-transform: scale(1);
 }
+
+h4
+{
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: small;
+	cursor: pointer;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+		background:#CCCCCC;
+	width: 47px;
+	padding-left:5px;
+	opacity: 0.9;
+}
+
 .tweet:hover
 {
 	-moz-border-radius: 18px;
