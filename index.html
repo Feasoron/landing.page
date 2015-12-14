@@ -2,8 +2,9 @@
 	"http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Christopher Belanger</title>
+	<title>Chris Belanger</title>
 	<meta http-equiv="Content-category" content="text/html; charset=ISO-8859-1" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Actor" />
 	<link href="css/splash.css" rel="stylesheet" category="text/css" />
 	<link href="http://cdn.jsdelivr.net/qtip2/2.2.0/jquery.qtip.css" rel="stylesheet" category="text/css" />
 	<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" /> 
@@ -14,34 +15,27 @@
 	<script type="text/javascript" src="js/switches.js"></script>
 	<script type="text/javascript">
 	$( document ).ready(function(){	
-	$('.hasTooltip').each(function() { // Notice the .each() loop, discussed below
-		       $(this).qtip({		    
-			content: {
-			    text: $(this).next('div') // Use the "div" element next to this for the content			    
-			},
-			syle: { 
-			name: 'light',
-			 tip: 'bottomLeft' 
-			}
-		    });
+		 $( ".accordion" ).accordion({
+			collapsible: true, 
+			active: false
 		});
-		
-		 $( ".accordion" ).accordion({collapsible: true, active: false});
-		});
+});
 	</script>
 </head>
 <body>
 	<div id="nav">
 		<h1>
-		Christopher Belanger
+		Chris Belanger
 		</h1>
 		<div id="elements">
-			<ol>
+			<ol>	
+				<!--<li><a href="https://plus.google.com/+ChristopherBelanger/posts" id="nav_plus">Google+</a></li>-->
+				<li><a href="javascript:switchto('twitter');" id="nav_twitter">Twitter</a></li>
+				<li><a href="javascript:switchto('blog');" id="nav_blog">Blog</a></li>
+				<li><a href="mailto:chris@chrisbelanger.net" target="_top">Email</a></li>
 				<li><a href="javascript:switchto('workhistory');" id="nav_about">Credentials</a></li>
 				<li><a href="javascript:switchto('about');" id="nav_about">About</a></li>
-				<li><a href="http://chris.blogs.chris-and-jen.com/" id="nav_blog">Blog</a></li>
-				<li><a href="https://plus.google.com/+ChristopherBelanger/posts" id="nav_plus">Google+</a></li>
-				<li><a href="javascript:switchto('twitter');" id="nav_twitter">Twitter</a></li>
+				
 			</ol>
 		</div>
 	</div>
@@ -52,30 +46,31 @@
 	
 	<div id="about" class="content_bubble">
 		<h3>About</h3>
-		<p>Christopher is a software engineer and technology consultant in Southern Maine. With over six years of experience in software development, web application design and system management, he has the skills to help you with all your web and technology needs.</p>		
+		<p>Chris is a software engineer and technology consultant in Southern Maine. With over six years of experience in software development, web application design and system management, he has the skills to help you with all your web and technology needs.</p>
+		<p class="aboutDetails">Whether you need a web site designed, a backup solution created for your office, help choosing a provider for your corporate email, or  just need advice choosing the right technology for your business, Chris can help. Click the email link above to get started, get a quote and get your business' technology needs addressed today.</p>
 	</div>
 	
 	<div id="workhistory" class="content_bubble">
 		<h3>Work History</h3>		
 		
 		<div class="job">
-		<div class="jobcompany">Skills</div>
-		<div class="jobtitle">C#, MVC 3.5,  JavaScript, JQuery, CSS, SQL,  C++, Python experience programming for Windows and Linux environments. Automation skill across .NET Mac, Linux</div>
+			<div class="jobcompany">Skills</div>
+			<div class="jobtitle">C#, MVC 3.5,  JavaScript, JQuery, CSS, SQL,  C++, Python experience programming for Windows and Linux environments. Automation skill across .NET Mac, Linux</div>
 		</div>
 		
 		<div class="job">
-		<div class="jobcompany">Delorme Publishing, Inc</div>
-		<div class="joblocation">Yarmouth, ME</div>
-		<div class="jobdates">July 2013 to Present</div>
-		<div class="jobtitle">Software Engineer</div>			
+			<div class="jobcompany">Delorme Publishing, Inc</div>
+			<div class="joblocation">Yarmouth, ME</div>
+			<div class="jobdates">July 2013 to Present</div>
+			<div class="jobtitle">Software Engineer</div>			
 		</div>
 		
 		<div class="job">
-		<div class="jobcompany">MediaFriends, Inc</div>
-		<div class="joblocation">Cambridge, Massachusetts</div>
-		<div class="jobdates">December 2009 to July 2013</div>
-		<div class="jobtitle">Software Engineer/Release Engineer</div>
-		<div class="accordion"> <!-- This class should hide the element, change it if needed -->
+			<div class="jobcompany">MediaFriends, Inc</div>
+			<div class="joblocation">Cambridge, Massachusetts</div>
+			<div class="jobdates">December 2009 to July 2013</div>
+			<div class="jobtitle">Software Engineer/Release Engineer</div>
+			<div class="accordion"> <!-- This class should hide the element, change it if needed -->
 				<h4>Details</h3>
 				<div class="jobdecription">
 				Worked on a small team of three server engineers, nine engineers total on an international free text messaging solution. This system provides both free real text messaging to millions of consumer clients but is also sold to businesses to text-enable landline phones. The product spans Android, iOS, Windows Mobile and a Web client. The server is implemented in .NET 4.0 and and Microsoft SQL Server, with some Linux components for SMS abilities. 
@@ -124,6 +119,11 @@
 				</p>
 			</div>
 		</p>
+	</div>
+	
+	<div id="blog" class="content_bubble">
+		<h3 ><a href="http://chris.blogs.chris-and-jen.com/">From 'Technically Rural'</a></h3>
+		<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fchris.blogs.chris-and-jen.com%2Ffeed%2F&num=3&tz=&targ=y&utf=y&html=a"  charset="UTF-8" type="text/javascript"></script>
 	</div>
 	
 	<div id="footer">
