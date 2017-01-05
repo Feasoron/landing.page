@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/feasoron
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://chrisbelanger.net
+  * I am feasoron (https://keybase.io/feasoron) on keybase.
+  * I have a public key with fingerprint E2D7 D697 B66F 75D5 CB06  4FFE B033 7EED A3DC 19FE
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010183e68821e86751c97c06b1247c3e2f6435985bbb9fc529d56cdaf00fc052bc1e0a",
+            "fingerprint": "e2d7d697b66f75d5cb064ffeb0337eeda3dc19fe",
+            "host": "keybase.io",
+            "key_id": "b0337eeda3dc19fe",
+            "kid": "010183e68821e86751c97c06b1247c3e2f6435985bbb9fc529d56cdaf00fc052bc1e0a",
+            "uid": "c52ccf7386a5deb3ec1ce2752c398719",
+            "username": "feasoron"
+        },
+        "service": {
+            "hostname": "chrisbelanger.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469136003,
+    "expire_in": 157680000,
+    "prev": "98ce932664a2f11c7b413f52b92385561dbb53f2acd2ca6b2bd3ebf8e9590979",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIxAnicrZJbSBRRGMdXu+lSkdEWvdWUlbDInJmdMzObBVYWXYiiIqPLMufMNzpk
+M9vMeCkRu1gvEeSDCK1d0CiKoDKqNSpbu2BFqCRZdEF8qFDsYkWUD3ZG6q3Hzsvh
+fOf3/b//9/HdnzQmEExLXVmcWF2bLEp7kkqUBjbX5h2s5Iit7+GildxOGL2gRAfX
+i+00dS7K8YhHighYUQQECpYlRFWZ8pggISJTEQQDR0RJVSRCiGpQSVB1CVNdM3je
+oLwkEIqA17gwZ5hWEThxx7Q8JguCLutYlQnGhizpEiU8jhgGEF4UZQBdE3WKVANY
+YrHt+hnMHNFcyDVtFmOP2Ki9f/D/2XfpqBwDKDVkUcGapAMRgSIKgsyioqrISPVB
+FxxL2wWMNkBzbce2uKowx6JlJgV/sH4nfwha7JgugRLNH0quBR4TiDu2Z1O7hH0X
+e1486md7e+I+Xg4k9kcoRkxLZ7NkCWXguCarEkWMpJ7pK6MIVpGIeV4Mc1ARNx2I
+mT4hyVjh2fHLQBmTVBUKqihgHNEEAyEqkwgSDda4KoiKJGGkEyKJhqBRXaAaJgLR
+RSCGAqqk8qrsd+zCbsvmohKzqRUxSdcssjSv1AGuqu3utrGBtGBg/Lh0f8cCwcwp
+fzfvoJYRaHiaNWPO9MPrpm3typMjGa3tVdcGGldcfJBqC//6GL3+c2jlHGno+5Z5
+1YnzG5vWB1Gye7jg6zH3xEjiVP3s/sa+5MXZg50Pk9k1ba9/6eP6j649nf/pXs6L
+nsG0ZHP3jo9Tv3wK9S/cH3y+48yCy15b74qr83sGLoUmd7V0vH23vbCiQI45yx9M
+zHm07+qaWbebNn+4kPn+QKJjqKm37nFWy3I1df5e86uGkSMjB1qtkzMX7Bsu/FJ3
+Z9rS9GeNk4Lh/EMZx/CtueU1L7sEa9OGSzmp/dHPJxpvvN3L16affTPcs2jJwvrg
+sp/V7d86T6/qGzx+sybETwgdyr7z41xBXfWmxEC47zerTU6l
+=wpFL
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/feasoron
+
+==================================================================
+
